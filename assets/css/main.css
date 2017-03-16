@@ -1,0 +1,316 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; 
+  margin: 0 auto;
+}
+
+html,body {
+  background: #fff;
+  height: 100%; }
+
+/* 2. Content ================================= */
+
+@media screen and (min-width: 769px){
+
+}
+
+@font-face {
+  font-family: ClaireHandRegular;
+  src: url('../fonts/ClaireHandRegular.otf') format('opentype');
+}
+
+p {
+  font-family: ClaireHandRegular;
+}
+
+h4 {
+  font-family: ClaireHandRegular;
+}
+
+h3 {
+  font-family: ClaireHandRegular;
+}
+
+/* step one type*/
+
+.one-line-one {
+  font-size: 1.5em;
+}
+.one-line-two {
+  font-size: 4em;
+  letter-spacing: .109em;
+  padding-top: 2%;
+}
+.one-line-three {
+ font-size: 2em;
+}
+
+/* step two type*/
+
+.two-line-one {
+  font-size: 1.04em;
+}
+.two-line-two {
+  font-size: 1.98em;
+  padding-top: 2%;
+}
+.two-line-three {
+ font-size: 1.3em;
+ margin-left: 10%;
+}
+.two-line-four {
+ font-size: 1.3em;
+ margin-left: 10%;
+}
+
+/* step three type*/
+
+.three-line-one {
+  font-size: 2em;
+}
+.three-line-two {
+  font-size: 1.6em;
+  padding-top: 2%;
+}
+.three-line-three {
+ font-size: 1.6em;
+}
+.three-line-four {
+ font-size: 1.6em;
+}
+
+
+/* step four type*/
+
+.four-line-one {
+  font-size: 1.4em;
+}
+.four-line-two {
+  font-size: 3em;
+  padding-top: 2%;
+}
+
+
+
+.page-wrap {
+  padding-top: 50%;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 900px;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.col {
+  width: 48%;
+  height: 100%;
+}
+
+.primary {
+  margin-left: 14%;
+}
+
+.secondary {
+  margin-left: 1%;
+}
+
+
+ 
+
+
+/* Flex */
+.page-wrap {
+  display: flex;
+  flex-direction: row;
+}
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+.step-2-illus {
+    display: flex;
+    flex-direction: row;
+  }
+
+ .step-1-illus {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+/* step one illustration */
+.knickers {
+  background-image: url("../img/underwear.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33.244680851064%; /* 125 / 376 */
+  height: 0px; 
+  padding-bottom: 21.276595744681%; /* 80 / 376 */
+  position: relative;
+}
+
+.red {
+  background-image: url("../img/red.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  top: 43px;
+  right: 53px;
+  transform: scale(.0000001);
+}
+
+/* step two illustration */
+
+.right-eye{
+  background-image: url("../img/righteye.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33.244680851064%; /* 125 / 376 */
+  height: 0px; 
+  padding-bottom: 21.276595744681%; /* 80 / 376 */
+  position: relative;
+}
+.right-pupil{
+  background-image: url("../img/rightpupil.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33%;
+  height: 80%;
+  position: absolute;
+  top: 12%;
+  right: 36%;
+}
+
+.left-eye{
+  background-image: url("../img/lefteye.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33.244680851064%; /* 125 / 376 */
+  height: 0px; 
+  padding-bottom: 21.276595744681%;
+  position: relative;
+}
+.left-pupil{
+  background-image: url("../img/leftpupil.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33%;
+  height: 80%;
+  position: absolute;
+  top: 12%;
+  left: 36%;
+}
+
+/* step three illustration */
+
+.shower {
+  background-image: url("../img/shower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33%;
+  height: 80%;
+  position: relative;
+  top: 12%;
+  right: 36%;
+}
+
+
+/* step 4 illustration */
+
+.step-4-illus {
+  display: flex;
+  flex-direction: row;
+}
+
+.pattern-one{
+  background-image: url("../img/boob.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33.244680851064%; /* 125 / 376 */
+  height: 0px; 
+  padding-bottom: 21.276595744681%; /* 80 / 376 */
+  position: relative;
+}
+.one{
+  background-image: url("../img/up.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 12%;
+  right: 36%;
+}
+.two{
+  background-image: url("../img/down.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 12%;
+  right: 12%;
+}
+
+
+.pattern-two{
+  background-image: url("../img/boob.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33.244680851064%; /* 125 / 376 */
+  height: 0px; 
+  padding-bottom: 21.276595744681%; /* 80 / 376 */
+  position: relative;
+}
+
+.arrows-two{
+  background-image: url("../img/around.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1%;
+  right: -5%;
+}
+
+.pattern-three{
+  background-image: url("../img/boob.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33.244680851064%; /* 125 / 376 */
+  height: 0px; 
+  padding-bottom: 21.276595744681%; /* 80 / 376 */
+  position: relative;
+}
+
+.arrows-three{
+  background-image: url("../img/inout.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1%;
+}
+
+
+ 
+/*# sourceMappingURL=main.css.map */
