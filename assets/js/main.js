@@ -27,7 +27,8 @@ TweenMax.to([".left-pupil"], .9, {
 
 
 TweenMax.to([".red"], 2, { 
-	scale: 1.1, 
+	scale: 1.1,
+	repeat: -1, 
 });
 
 TweenMax.to([".arrows-two"], 4, { 
